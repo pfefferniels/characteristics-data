@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Charakterisierung der Tonart B-Dur</title>
+                <respStmt>
+                    <persName xml:id="pfeffer">
+                        <surname>Pfeffer</surname>
+                        <forename>Niels</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Erstellung der Transkription nach
+                            DTA-Richtlinien</note>
+                        <date type="importDTA"/>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <persName>
+                        <surname>Pfeffer</surname>
+                        <forename>Niels</forename>
+                    </persName>
+                </publisher>
+                <date type="publication"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc/3.0/de/">
+                        <p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported License.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="M">Mattheson, Johann: Das neu-eröffnete Orchestre, Hamburg 1713.</bibl>
+                <biblFull>
+                    <titleStmt>
+                        <title level="m" type="main">Das neu-eröffnete Orchestre</title>
+                        <author>
+                            <persName ref="http://d-nb.info/gnd/118578995">
+                                <surname>Mattheson</surname>
+                                <forename>Johann</forename>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition n="1"/>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher><name>Schiller</name></publisher>
+                        <pubPlace>Hamburg</pubPlace>
+                        <date type="publication">1713</date>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bayerische Staatsbibliothek</repository>
+                        <idno>
+                            <idno type="shelfmark">[Mus.th. 2230]</idno>
+                            <idno type="URLCatalogue">[URL Katalogaufnahme]</idno>
+                            <idno type="URLImages">[URL Bilddateien]</idno>
+                        </idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <typeDesc>
+                            <p>Fraktur.</p>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>[Hinweise zu den Transkriptions- und Annotationsrichtlinien]</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="deu">Neuhochdeutsch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>
+                    <hi rendition="#aq">B. dur (<foreign xml:lang="lat">Lydius transpoſitus</foreign>)</hi> iſt im Gegen-
+                    <lb />theil <hi rendition="#b">ſehr</hi> <hi rendition="#aq">divertiſſant</hi>
+                    <hi rendition="#b">und pra&#x0364;chtig</hi>; be-
+                    <lb />ha&#x0364;lt dabey gerne etwas <hi rendition="#aq">modeſt</hi>es, und kan
+                    <lb />demnach zugleich vor <hi rendition="#aq">magnific</hi> und <hi rendition="#aq">mignon</hi>
+                    <lb />paſſiren. Unter andern <hi rendition="#aq">Qualita&#x0364;ten</hi> die ihm
+                    <lb /><persName>Kircherus</persName> beygeleget, iſt dieſe nicht zu verwerf-
+                    <lb />fen: <hi rendition="#aq">
+                        <quote xml:id="kircher-quote" corresp="#kircher-quote-trans">
+                            <foreign xml:lang="lat">Ad ardua animam elevans</foreign>
+                        </quote></hi>.
+                    <quote type="translation" xml:id="kircher-quote-trans" corresp="#kircher-quote">
+                        Er erhe-
+                        <lb />bet die Seele zu ſchweren Sachen.
+                    </quote>
+                    (man mag
+                    <lb />es vor eine Gnade halten, daß dieſer Tohn noch
+                    <lb />unter die <hi rendition="#aq">transponi</hi>rten <hi rendition="#aq">Modos</hi> mit einſchlei-
+                    <lb />chen darff, denn ſonſt ha&#x0364;tte der arme Schelm
+                    <lb />gar keinen Nahmen bekommen.)
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

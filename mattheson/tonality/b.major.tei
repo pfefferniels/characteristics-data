@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Charakterisierung der Tonart H-Dur</title>
+                <respStmt>
+                    <persName xml:id="pfeffer">
+                        <surname>Pfeffer</surname>
+                        <forename>Niels</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Erstellung der Transkription nach
+                            DTA-Richtlinien</note>
+                        <date type="importDTA"/>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <persName>
+                        <surname>Pfeffer</surname>
+                        <forename>Niels</forename>
+                    </persName>
+                </publisher>
+                <date type="publication"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc/3.0/de/">
+                        <p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported License.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="M">Mattheson, Johann: Das neu-eröffnete Orchestre, Hamburg 1713.</bibl>
+                <biblFull>
+                    <titleStmt>
+                        <title level="m" type="main">Das neu-eröffnete Orchestre</title>
+                        <author>
+                            <persName ref="http://d-nb.info/gnd/118578995">
+                                <surname>Mattheson</surname>
+                                <forename>Johann</forename>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition n="1"/>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher><name>Schiller</name></publisher>
+                        <pubPlace>Hamburg</pubPlace>
+                        <date type="publication">1713</date>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bayerische Staatsbibliothek</repository>
+                        <idno>
+                            <idno type="shelfmark">[Mus.th. 2230]</idno>
+                            <idno type="URLCatalogue">[URL Katalogaufnahme]</idno>
+                            <idno type="URLImages">[URL Bilddateien]</idno>
+                        </idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <typeDesc>
+                            <p>Fraktur.</p>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>[Hinweise zu den Transkriptions- und Annotationsrichtlinien]</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="deu">Neuhochdeutsch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>
+                    Der Effect, den die noch u&#x0364;brigen P.1.C.1.
+                    <lb />§. 20. (wo <hi rendition="#aq">errore typographico</hi> §. 10. ſte-
+                    <lb />het) <hi rendition="#aq">ſpecifi</hi>rte 8. Tohne thun, iſt noch weni-
+                    <lb />gen bekandt, und muß der Poſterita&#x0364;t u&#x0364;berge-
+                    <lb />laſſen werden, alldieweil man ſich heutiges Ta-
+                    <lb />ges ihrer gar ſelten zum Grunde eines Stu&#x0364;ckes
+                    <lb />bedienet, auſſer was <hi rendition="#aq">H.dur.</hi> betrifft, welches noch
+                    <lb />bisweile&#x0303; herha&#x0364;lt, und eine <hi rendition="#b">widerwa&#x0364;rtige,
+                    <lb />harte,</hi> gar <hi rendition="#b">unangenehme</hi>, auch dabey et-
+                    <fw type="catch" place="bottom">was</fw>
+                    <!-- <pb n="252" -->
+                    was <hi rendition="#aq">deſperate</hi> Eigenſchafft an ſich zu habe&#x0303; ſchei-
+                    <lb />net. Warum aber dieſe 8. Tohne noch nicht ſo ge-
+                    <lb />bra&#x0364;uchlich, als die andern 16. ſolches iſt an ob-
+                    <lb />gedachtem Orte §. 21. nach Nothdurfft an-
+                    <lb />gezeiget worden.
+                 </p>
+            </div>
+        </body>
+    </text>
+</TEI>
