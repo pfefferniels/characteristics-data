@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Charakterisierung der Taktart 12/8</title>
+                <respStmt>
+                    <persName xml:id="pfeffer">
+                        <surname>Pfeffer</surname>
+                        <forename>Niels</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Erstellung der Transkription nach
+                            DTA-Richtlinien</note>
+                        <date type="importDTA"/>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <persName>
+                        <surname>Pfeffer</surname>
+                        <forename>Niels</forename>
+                    </persName>
+                </publisher>
+                <date type="publication"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc/3.0/de/">
+                        <p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported License.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="M">Mattheson, Johann: Das neu-eröffnete Orchestre, Hamburg 1713.</bibl>
+                <biblFull>
+                    <titleStmt>
+                        <title level="m" type="main">Das neu-eröffnete Orchestre</title>
+                        <author>
+                            <persName ref="http://d-nb.info/gnd/118578995">
+                                <surname>Mattheson</surname>
+                                <forename>Johann</forename>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition n="1"/>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher><name>Schiller</name></publisher>
+                        <pubPlace>Hamburg</pubPlace>
+                        <date type="publication">1713</date>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bayerische Staatsbibliothek</repository>
+                        <idno>
+                            <idno type="shelfmark">[Mus.th. 2230]</idno>
+                            <idno type="URLCatalogue">[URL Katalogaufnahme]</idno>
+                            <idno type="URLImages">[URL Bilddateien]</idno>
+                        </idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <typeDesc>
+                            <p>Fraktur.</p>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>[Hinweise zu den Transkriptions- und Annotationsrichtlinien]</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="deu">Neuhochdeutsch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>
+                    Jſt nur, als Zwo&#x0364;lffachtheil, kleinerer
+                    <lb/><hi rendition="#aq">proportion</hi>
+                    <note type="editorial" resp="#pfeffer">als der zuvor beschriebene 12/4-Takt</note>,
+                    ſonſt in <hi rendition="#aq"><foreign xml:lang="lat">numero</foreign></hi> und
+                    <hi rendition="#aq"><foreign xml:lang="lat">membris</foreign></hi>
+                    <lb/>wie in Theilen, eben als der vorige Tact, das
+                    <lb/>iſt, ſie <hi rendition="#aq"><foreign xml:lang="lat">differiren</foreign></hi> nur in
+                    <hi rendition="#aq"><foreign xml:lang="lat">qualitate</foreign></hi>, nicht aber
+                    <lb/>in <hi rendition="#aq"><foreign xml:lang="lat">quntitate</foreign></hi>. Dieſer iſt ſehr geſchickt vor die
+                    <lb/>Sachen <hi rendition="#aq"><foreign xml:lang="fra">à la moderne</foreign></hi>,
+                    weil darinnen, obgleich
+                    <fw place="bottom" type="catch">die</fw>
+                    <!-- <pb n="81" /> -->
+                    die Glieder mit dem 6/8 in gleicher Geltung ſind
+                    <lb/> das verlängte <hi rendition="#aq"><foreign xml:lang="fra">Mouvement</foreign></hi> und die doppelte
+                    <lb/>Anzahl eine gewiſſe Ernſthafftigkeit, mit der,
+                    <lb/>den achteln ſonſt anhängenden, Hurtigkeit, der-
+                    <lb/>maſſen verbindet, daß man die ſonſt huepffende
+                    <lb/><hi rendition="#aq">Menſur</hi> zu den aller <hi rendition="#aq">tendre</hi>ſten und beweglich-
+                    <lb/>ſten Sachen gar wol, es ſey in Kirchen, oder
+                    <lb/><hi rendition="#aq">Theatral-vocal-Muſic</hi> wie auch in <hi rendition="#aq">Cantaten</hi>
+                    <lb/><abbr>&#xA75B;c.</abbr> zu gebrauchen weiß. Vorzeiten hat man
+                    <lb/>nach dieſer <hi rendition="#aq">Menſur</hi> nichts anders, als gar ge-
+                    <lb/>ſchwinde Sachen, wie es denn noch gewiſſer maſ-
+                    <lb/>ſen geschiehet, geſetzet, als nemlich in <hi rendition="#aq">Giquen</hi>
+                    <lb/>und dergleichen; heutiges Tages aber dienet
+                    <lb/>dieſelbe vielmehr traurige und <hi rendition="#aq"><foreign xml:lang="fra">touchante Aff
+                        <lb/>ecten</foreign></hi> denn luſtige zu <hi rendition="#aq"><foreign xml:lang="lat">exprimi</foreign></hi>ren.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

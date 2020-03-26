@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Charakterisierung der Tonart F-Dur</title>
+                <respStmt>
+                    <persName xml:id="pfeffer">
+                        <surname>Pfeffer</surname>
+                        <forename>Niels</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Erstellung der Transkription nach
+                            DTA-Richtlinien</note>
+                        <date type="importDTA"/>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <persName>
+                        <surname>Pfeffer</surname>
+                        <forename>Niels</forename>
+                    </persName>
+                </publisher>
+                <date type="publication"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc/3.0/de/">
+                        <p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported License.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="M">Mattheson, Johann: Das neu-eröffnete Orchestre, Hamburg 1713.</bibl>
+                <biblFull>
+                    <titleStmt>
+                        <title level="m" type="main">Das neu-eröffnete Orchestre</title>
+                        <author>
+                            <persName ref="http://d-nb.info/gnd/118578995">
+                                <surname>Mattheson</surname>
+                                <forename>Johann</forename>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition n="1"/>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher><name>Schiller</name></publisher>
+                        <pubPlace>Hamburg</pubPlace>
+                        <date type="publication">1713</date>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bayerische Staatsbibliothek</repository>
+                        <idno>
+                            <idno type="shelfmark">[Mus.th. 2230]</idno>
+                            <idno type="URLCatalogue">[URL Katalogaufnahme]</idno>
+                            <idno type="URLImages">[URL Bilddateien]</idno>
+                        </idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <typeDesc>
+                            <p>Fraktur.</p>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>[Hinweise zu den Transkriptions- und Annotationsrichtlinien]</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="deu">Neuhochdeutsch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>
+                    <hi rendition="#aq">F. dur (<foreign xml:lang="lat">Jonius tranſpoſitus</foreign>)</hi>
+                    der ſechſte
+                    <lb />Thon, <hi rendition="#b">iſt</hi> <hi rendition="#aq"><foreign xml:lang="fra">capable</foreign></hi>
+                    <hi rendition="#b">die ſchönſten</hi> <hi rendition="#aq"><foreign xml:lang="fra">Sen-
+                        <lb />timents</foreign></hi> <hi rendition="#b">von der Welt zu</hi>
+                    <hi rendition="#aq"><foreign xml:lang="lat">exprimiren</foreign></hi>,
+                    <lb />es ſey nun Großmuth, Standthafftigkeit, Lie-
+                    <lb />be, oder was ſonſt in dem Tugend-Regiſter
+                    <lb />oben an ſtehet, und ſolches alles mit einer der
+                    <lb />maſſen natürlichen Art und unvergleichlichen
+                    <lb /><hi rendition="#aq"><foreign xml:lang="fra">Facilité</foreign></hi>, daß gar kein Zwang dabey vonnö-
+                    <lb />then iſt. Ja, die Artigkeit und <hi rendition="#aq"><foreign xml:lang="fra">Adreſſe</foreign></hi> dieſes
+                    <lb />Thons iſt nicht beſſer zu beschreiben, als in
+                    <lb />Vergleichung mit einem hübschen Menſchen,
+                    <lb />dem alles, was er thut, es ſey ſo gering es im-
+                    <lb />mer wolle, <hi rendition="#aq"><foreign xml:lang="lat">perfect</foreign></hi> gut anſtehet, und der, wie
+                    <lb />die Frantzosen reden, <hi rendition="#aq"><foreign xml:lang="fra">bonne grace</foreign></hi> hat.
+                    <lb /><persName ref="http://d-nb.info/gnd/118562347">Kircherus</persName> <hi rendition="#b">ſpricht:</hi> Er habe,
+                    <quote xml:id="kirch-quote" corresp="#kirch-quote-trans">
+                        <foreign xml:lang="lat">
+                            neſcio
+                            <fw place="bottom" type="catch">quid</fw>
+                            <!-- <pb n="242" /> -->
+                            quid ſeveriſſimae hilaritatis &amp; bellicae in-
+                            <lb />citationis;
+                        </foreign>
+                    </quote>
+                    <quote type="translation" xml:id="kirch-quote-trans" corresp="#kirch-quote">
+                        eine gewiſſe ſtrenge Fröligkeit
+                        <lb />und kriegeriſche Aufmenterung;
+                    </quote>
+                    welches ſich
+                    <lb />aber nicht allerdings reimen will. Was an-
+                    <lb />dere davon melden, iſt ſo mal <hi rendition="#aq"><foreign xml:lang="fra">à propos</foreign></hi> und
+                    verwirrt, daß dem Leſer damit nicht beſchwer-
+                    <lb />lich fallen will, nur ſtehet anzumercken, daß ſich
+                    <lb />hiebey wiederum das übrige der obangeregten
+                    <lb />irrigen Meynung, ſo wol der <hi rendition="#aq">Tertie</hi> als des
+                    <lb /><hi rendition="#aq">b.</hi> wegen, widerleget. Denn erſtlich hat die-
+                    <lb />ſer Thon <hi rendition="#aq">Tertiam majorem</hi>, iſt folglich <hi rendition="#aq">dur</hi>,
+                    <lb />und mag dem ungeachtet die allerzärtlichſten
+                    <lb />Sachen ausdrücken; vors andere iſt er mit dem
+                    <lb /><hi rendition="#aq">b.</hi> bezeichnet, in der <hi rendition="#aq">Quarte</hi> nemlich, und ſol-
+                    <lb />ches hindert keines weges, daß man nicht aller-
+                    <lb />hand luſtige und friſche <hi rendition="#aq"><foreign xml:lang="fra">Pieçen</foreign></hi> daraus ſetzen
+                    <lb />könne. Im folgenden wird ſich, gleichwie
+                    <lb />ſchon im vorhergehenden <hi rendition="#aq">§. 11. &amp; § 12.</hi> alſo
+                    <lb /><hi rendition="#aq">§. 15. &amp; § 16.</hi> weiſen, daß es nicht angehe, nach
+                    <lb />ſolchen <hi rendition="#aq"><foreign xml:lang="lat">Principiis</foreign></hi> zu urtheilen.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
