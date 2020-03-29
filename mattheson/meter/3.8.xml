@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Charakterisierung der Taktart 3/8</title>
+                <respStmt>
+                    <persName xml:id="pfeffer">
+                        <surname>Pfeffer</surname>
+                        <forename>Niels</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Erstellung der Transkription nach
+                            DTA-Richtlinien</note>
+                        <date type="importDTA"/>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <persName>
+                        <surname>Pfeffer</surname>
+                        <forename>Niels</forename>
+                    </persName>
+                </publisher>
+                <date type="publication"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc/3.0/de/">
+                        <p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported License.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="M">Mattheson, Johann: Das neu-eröffnete Orchestre, Hamburg 1713.</bibl>
+                <biblFull>
+                    <titleStmt>
+                        <title level="m" type="main">Das neu-eröffnete Orchestre</title>
+                        <author>
+                            <persName ref="http://d-nb.info/gnd/118578995">
+                                <surname>Mattheson</surname>
+                                <forename>Johann</forename>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition n="1"/>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher><name>Schiller</name></publisher>
+                        <pubPlace>Hamburg</pubPlace>
+                        <date type="publication">1713</date>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bayerische Staatsbibliothek</repository>
+                        <idno>
+                            <idno type="shelfmark">[Mus.th. 2230]</idno>
+                            <idno type="URLCatalogue">[URL Katalogaufnahme]</idno>
+                            <idno type="URLImages">[URL Bilddateien]</idno>
+                        </idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <typeDesc>
+                            <p>Fraktur.</p>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>[Hinweise zu den Transkriptions- und Annotationsrichtlinien]</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="deu">Neuhochdeutsch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>
+                    <lb />3/2. Drey achtel. Dieſer will offtmahls <hi rendition="#aq">par
+                    <lb />affectation</hi> dem vorhergehenden ins Amt fallen,
+                    <lb />hat ſich auch ſchon ſo beliebt gemacht, daß man 
+                    <lb />ihn in einer <hi rendition="#aq">Arie</hi>, jedoch mit beygeſetztem <hi rendition="#aq">ada-
+                    <lb />gio</hi> oder dergleichen, wol vorziehet, wiewol ihm
+                    <lb />ſonſten die <hi rendition="#aq">Paſſepieds, Canaries</hi>, und andere hü-
+                    <lb />pfende <hi rendition="#aq">Species</hi>, (davon c.1.p.3.) eigenthüm-
+                    <lb />lich <hi rendition="#aq">subject</hi> ſind.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

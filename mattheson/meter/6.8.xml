@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Charakterisierung der Taktart 6/8</title>
+                <respStmt>
+                    <persName xml:id="pfeffer">
+                        <surname>Pfeffer</surname>
+                        <forename>Niels</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Erstellung der Transkription nach
+                            DTA-Richtlinien</note>
+                        <date type="importDTA"/>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <persName>
+                        <surname>Pfeffer</surname>
+                        <forename>Niels</forename>
+                    </persName>
+                </publisher>
+                <date type="publication"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc/3.0/de/">
+                        <p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported License.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="M">Mattheson, Johann: Das neu-eröffnete Orchestre, Hamburg 1713.</bibl>
+                <biblFull>
+                    <titleStmt>
+                        <title level="m" type="main">Das neu-eröffnete Orchestre</title>
+                        <author>
+                            <persName ref="http://d-nb.info/gnd/118578995">
+                                <surname>Mattheson</surname>
+                                <forename>Johann</forename>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition n="1"/>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher><name>Schiller</name></publisher>
+                        <pubPlace>Hamburg</pubPlace>
+                        <date type="publication">1713</date>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bayerische Staatsbibliothek</repository>
+                        <idno>
+                            <idno type="shelfmark">[Mus.th. 2230]</idno>
+                            <idno type="URLCatalogue">[URL Katalogaufnahme]</idno>
+                            <idno type="URLImages">[URL Bilddateien]</idno>
+                        </idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <typeDesc>
+                            <p>Fraktur.</p>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>[Hinweise zu den Transkriptions- und Annotationsrichtlinien]</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="deu">Neuhochdeutsch</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>
+                    <lb />6/8. Jſt eben der vorige Tact,
+                    <note type="editorial" resp="#pfeffer">
+                        i.e. der 6/4-Takt.
+                    </note>
+                    nur daß die Glie-
+                    <lb />der kleiner ſind. Sein Gebrauch iſt bey heuti-
+                    <lb />ger <hi rendition="#aq">Compoſition</hi> faſt der schönſte, und ſchickt 
+                    <lb />ſich zu allerhand <hi rendition="#aq">coulanten, melodieuſen</hi> auch 
+                    <lb />friſchen und hurtigen Sachen ſehr wol.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
