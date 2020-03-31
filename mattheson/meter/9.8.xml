@@ -94,8 +94,14 @@
                     <lb />de, ſondern allemahl im erſten, und alſo im 
                     <lb />Niederſchlagen zu finden, welches in alle <hi rendition="#aq">Tri-
                     <lb />peln</hi>, wol aber leichter, denn in dieſen, zu <hi rendition="#aq">ob-
-                    <lb />ſervi</hi>ren iſt, als denn läſt er ſich gar natürlich <hi rendition="#aq"><sic>ex-
-                    <lb />cecuti</sic></hi>ren. Allein, wo ja was ſchweres daran,
+                    <lb />ſervi</hi>ren iſt, als denn läſt er ſich gar natürlich <hi rendition="#aq">
+                        <choice>
+                            <sic>ex-
+                                <lb />cecuti</sic>
+                            <corr>ex-
+                                <lb />ecuti</corr>
+                        </choice>
+                    </hi>ren. Allein, wo ja was ſchweres daran,
                     ſo ſteckt es wol in der <hi rendition="#aq">Compoſition</hi> mehr als in 
                     <lb />der Execution. Derowegen ſich denn auch
                     <fw type="catch" place="bottom">noch</fw>
